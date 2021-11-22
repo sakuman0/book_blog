@@ -18,7 +18,9 @@ $(function () {
     $(window).scroll(function () {
         if ($(window).scrollTop() <= 500) {
             $(".scroll-top").hide();
-        } else {
+        } else if( $(window).width() <= 768) {
+            $(".scroll-top").hide();
+        }else{
             $(".scroll-top").show();
         }
     });

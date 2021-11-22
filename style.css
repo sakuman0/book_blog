@@ -965,9 +965,9 @@ appearance:none;　/* 標準のスタイルを無効にする */
 .scroll-top {
   position:fixed;
   bottom:20px;
-  right:50px;
-  height:60px;
-  width:60px;
+  right:2vw;
+  height:50px;
+  width:50px;
   background-color: #6ebbc4;
   border-radius:100%;
   cursor: pointer;
